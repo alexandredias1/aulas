@@ -1,0 +1,52 @@
+h1{
+    font-size: 60px;
+    color: #F59456;
+    font-weight: 300;
+    letter-spacing: 1mm;
+    text-align: center;
+    background-color: #F2F2F2;
+}
+h2{
+    font-size: 30px;
+    color: #F59456;
+    font-weight: 300;
+    text-align: center;
+    background-color: #F2F2F2;
+}
+a{
+    font-size: 30px;
+    color: #D98027;
+    font-weight: 200;
+}
+#localevento{
+    font-size: 30px;
+    color: #D95927;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#diasevento{
+    font-size: 25px;
+    color: #D97827;
+}
+img{
+    display: inline-flex;
+}
+#imagens{
+    display:block;
+    padding: 50px;
+    margin: 30px;
+    width: 550px;
+    height: 300px;
+    background-color: #D97827;
+}
+#comochegar{
+    font-size: 30px;
+    color: #D98027;
+    font-weight: 200;
+}
+#video01{
+    padding: 50px;
+    margin: 30px;
+    width: 600px;
+    height: 300px;
+    background-color: #D97827;
+}
