@@ -29,15 +29,16 @@
                 <a class="nav-link" href="#">Esportes</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-danger" type="submit">Buscar</button>
-            </form>
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2">Entrar</button>
+              <button type="button" class="btn btn-danger">Registrar</button>
+            </div>
           </div>
         </div>
       </nav>
 
-    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+<main class="container"> 
+    <div id="myCarousel" class="carousel slide mb-12" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -50,7 +51,7 @@
               <div class="carousel-caption text-start">
                 <h1>Valorant</h1>
                 <p class="opacity-75">Um jogo de tiro tático 5x5 com personagens originais</p>
-                <p><a class="btn btn-lg btn-danger" href="#">Jogue grátis</a></p>
+                <p><a class="btn btn-lg btn-danger" href="https://playvalorant.com/pt-br/">Jogue grátis</a></p>
               </div>
             </div>
           </div>
@@ -60,7 +61,7 @@
               <div class="carousel-caption">
                 <h1>Teamfight Tactics</h1>
                 <p>Batalha pela a convergência</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Jogue de grátis</a></p>
+                <p><a class="btn btn-lg btn-primary" href="https://teamfighttactics.leagueoflegends.com/pt-br/">Jogue de grátis</a></p>
               </div>
             </div>
           </div>
@@ -70,7 +71,7 @@
               <div class="carousel-caption text-start">
                 <h1>League of legends</h1>
                 <p>League of Legends é um jogo de estratégia em que duas equipes de cinco poderosos Campeões se enfrentam para destruir a base uma da outra</p>
-                <p><a class="btn btn-lg btn-warning" href="#">Jogue de graça</a></p>
+                <p><a class="btn btn-lg btn-warning" href="https://www.leagueoflegends.com/pt-br/">Jogue de graça</a></p>
               </div>
             </div>
           </div>
@@ -109,6 +110,51 @@
       </div>
     </div>
 
+    <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+      <div class="col-lg-6 px-0">
+        <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
+        <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+        <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p>
+      </div>
+    </div>
+ 
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary-emphasis">World</strong>
+            <h3 class="mb-0">Featured post</h3>
+            <div class="mb-1 text-body-secondary">Nov 12</div>
+            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+              Continue reading
+              <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success-emphasis">Design</strong>
+            <h3 class="mb-0">Post title</h3>
+            <div class="mb-1 text-body-secondary">Nov 11</div>
+            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+              Continue reading
+              <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+</main> 
       <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <div class="col-md-4 d-flex align-items-center">
@@ -119,9 +165,9 @@
           </div>
       
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="https://cdn-icons-png.freepik.com/256/254/254406.png?semt=ais_hybrid" class="bi" width="24" height="24"><use xlink:href="#twitter"/></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="https://as1.ftcdn.net/v2/jpg/02/97/46/92/1000_F_297469204_uEjoQkT9gLp9AlyZHvtkMhCQR5DV4mF.jpg" class="bi" width="24" height="24"><use xlink:href="#instagram"/></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-icon.png" class="bi" width="24" height="24"><use xlink:href="#youtube"/></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/riotgames"><img src="https://cdn-icons-png.freepik.com/256/254/254406.png?semt=ais_hybrid" class="bi" width="24" height="24"><use xlink:href="#twitter"/></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/riotgames/"><img src="https://imgs.search.brave.com/xk2SZXsyptXIEKDcN2NF1WOZjCNM7nVi1telQngwZ3c/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9pbnN0YWdy/YW0taWNvbi0yNTZ4/MjU1LWM3aWY1bzMy/LnBuZw" class="bi" width="24" height="24"><use xlink:href="#instagram"/></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.youtube.com/riotgames"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-icon.png" class="bi" width="24" height="24"><use xlink:href="#youtube"/></a></li>
           </ul>
         </footer>
       </div>
