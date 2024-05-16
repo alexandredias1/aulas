@@ -5,3 +5,9 @@
 #carrossel{
     margin: 0 auto;
 }
+body, html{
+    background-size: contain;
+    background-repeat: repeat;
+    background-image: url(https://www.riotgames.com/darkroom/1440/747810e19908a4ef0eb6894e29ebaf1a:13ce31c501efc8a2ea2787664d1f9f21/blurry-tigger-new-logo.jpg);
+    color: white;
+}
