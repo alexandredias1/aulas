@@ -1,0 +1,15 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('https://www.riotgames.com/darkroom/1440/d9a2f62dd5cdd3630d774173aa7da0ac:ea8b4f14f2a5e4f1f70471463e6fea39/riotx-arcane-key-art.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+h2{
+    font-size: 50px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,38 @@
+#rioticon{
+    width: 50px;
+    padding: 1mm;
+}
+#carrossel{
+    margin: 0 auto;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('https://www.riotgames.com/darkroom/1440/747810e19908a4ef0eb6894e29ebaf1a:13ce31c501efc8a2ea2787664d1f9f21/blurry-tigger-new-logo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+#rodape1{
+    color: white;
+}
+#arcane1{
+    border: 5px black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(1, 0, 3, 0.2);
+}
+#musicriot{
+    border: 5px black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(1, 0, 3, 0.2);
+}
+li{
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}

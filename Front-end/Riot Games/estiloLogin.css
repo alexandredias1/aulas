@@ -1,0 +1,15 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('https://img.odcdn.com.br/wp-content/uploads/2021/11/11_14-RiotXArcane_Phase02_KeyArt_4K.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+h2{
+    font-size: 50px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+}
