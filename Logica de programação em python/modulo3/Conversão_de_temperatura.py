@@ -11,11 +11,11 @@ try:
 #Conversão para celsius
     if conversao == 1:
         celsius = (temp + 273.15)
-        print(f"A temperatura convertida para Kelvin ficaria de {celsius}°K")
+        print(f"A temperatura convertida para Kelvin ficaria de {celsius:,.2f}°K")
 #Conversão para Kelvin
     elif conversao == 2:
         Kelvin = (temp - 273.15)
-        print(f"A temperatura convertida para Celsius ficaria de {Kelvin}°C")
+        print(f"A temperatura convertida para Celsius ficaria de {Kelvin:,.2f}°C")
     else:
         print("Valor inserido inválido")
 
