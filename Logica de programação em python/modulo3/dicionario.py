@@ -2,7 +2,7 @@
 inventario = {"maçãs": 30, "bananas": 45, "laranjas": 25}
 
 while True:
-    acao = input("Digite 'adicionar' para acrescentar o estoque, 'mostrar' para ver o inventário, 'remover' para remover um produto,'adição para adicionar um novo produto' ou 'sair' para sair: ")
+    acao = input("Digite 'adicionar' para acrescentar o estoque, 'mostrar' para ver o inventário, 'remover' para remover um produto,'adição' para adicionar um novo produto ou 'sair' para sair: ")
     
     if acao == 'sair':
         break
