@@ -1,0 +1,4 @@
+Nome: ale
+Email: xanderio
+Educação: ensino medio
+Cursos e certificados: excel avancado, python
