@@ -15,4 +15,4 @@ for i in range(5):
 
 with open(nome_turma, 'w') as arquivo:
     arquivo.writelines(f"Matricula: {matricula}\nNome: {nome}\nEmail: {email}\nCPF: {cpf}\nCEP: {cep}")
-    arquivo.write(nome_turma)
+    arquivo.writelines(nome_turma)
