@@ -1,0 +1,5 @@
+Matricula: 50502
+Nome: alexandre dias
+Email: xanderio@outlook.com
+CPF: 1987911765
+CEP: 2000500turma.txt
